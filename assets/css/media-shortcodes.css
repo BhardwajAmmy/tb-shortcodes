@@ -1,0 +1,49 @@
+/*** TB Shortcodes - media elements ***/
+
+/* Container for responsive media elements */
+
+.tbs-responsive-media-yes {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+}
+.tbs-responsive-media-yes iframe,
+.tbs-responsive-media-yes object,
+.tbs-responsive-media-yes embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/*		YouTube
+---------------------------------------------------------------*/
+
+.tbs-youtube { margin: 0 0 1.5em 0 }
+.tbs-youtube iframe { border: none !important }
+
+/*		Vimeo
+---------------------------------------------------------------*/
+
+.tbs-vimeo { margin: 0 0 1.5em 0 }
+.tbs-vimeo iframe { border: none !important }
+
+/*		Screenr
+---------------------------------------------------------------*/
+
+.tbs-screenr { margin: 0 0 1.5em 0 }
+.tbs-screenr iframe { border: none !important }
+
+/*		Document
+---------------------------------------------------------------*/
+
+.tbs-document { margin: 0 0 1.5em 0 }
+.tbs-document iframe { border: none !important }
+
+/*		Gmap
+---------------------------------------------------------------*/
+
+.tbs-gmap { margin: 0 0 1.5em 0 }
+.tbs-gmap iframe { border: none !important }

@@ -1,0 +1,356 @@
+/*** TB Shortcodes - content elements ***/
+
+/*		Heading
+---------------------------------------------------------------*/
+
+.tbs-heading-style-default {
+	padding: 2px 0;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #999;
+}
+.tbs-heading-style-default .tbs-heading-inner {
+	padding: 1em 0.5em;
+	border-top: 4px solid #eee;
+	border-bottom: 4px solid #eee;
+}
+.tbs-heading.tbs-heading-align-left { text-align: left; }
+.tbs-heading.tbs-heading-align-left .tbs-heading-inner { padding-left: 0.2em; }
+.tbs-heading.tbs-heading-align-right { text-align: right; }
+.tbs-heading.tbs-heading-align-right .tbs-heading-inner { padding-right: 0.2em; }
+.tbs-heading.tbs-heading-align-center { text-align: center; }
+
+/*		Divider
+---------------------------------------------------------------*/
+
+.tbs-divider {
+	clear: both;
+	position: relative;
+	height: 3px;
+	margin: 2.5em 0 1.5em 0;
+	background: #999;
+}
+.tbs-divider a {
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+	display: inline-block;
+	color: #777;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+
+/*		Spacer
+---------------------------------------------------------------*/
+
+.tbs-spacer {
+	display: block;
+	height: 0;
+	clear: both;
+	overflow: hidden;
+}
+.tbs-spacer-5 { height: 5px }
+.tbs-spacer-10 { height: 10px }
+.tbs-spacer-20 { height: 20px }
+.tbs-spacer-30 { height: 30px }
+.tbs-spacer-40 { height: 40px }
+
+/*		Highlight
+---------------------------------------------------------------*/
+
+.tbs-highlight {
+	display: inline;
+	padding: 1px 0;
+}
+
+/*		Label
+---------------------------------------------------------------*/
+
+.tbs-label {
+	display: inline;
+	margin-right: 0.3em;
+	padding: 0.1em 0.3em;
+	font-size: 0.8em;
+	height: 0.8em;
+	line-height: 0.8em;
+	color: #fff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.tbs-label-type-default { background: #999 }
+.tbs-label-type-success { background: #090 }
+.tbs-label-type-warning { background: #f90 }
+.tbs-label-type-important { background: #f03 }
+.tbs-label-type-black { background: #111 }
+.tbs-label-type-info { background: #09c }
+
+/*		Dropcap
+---------------------------------------------------------------*/
+
+.tbs-dropcap {
+	float: left;
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+	margin: 0.2em 0.5em 0.2em 0;
+	line-height: 2em;
+	text-align: center;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+.tbs-dropcap-style-default {
+	color: #fff;
+	background: rgb(69, 72, 77); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(69, 72, 77, 1)), color-stop(100%, rgba(0, 0, 0, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(69, 72, 77, 1) 0%, rgba(0, 0, 0, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#45484d', endColorstr='#000000', GradientType=0); /* IE6-9 */
+	text-shadow: -1px -1px 0 #000;
+	-moz-text-shadow: -1px -1px 0 #000;
+	-webkit-text-shadow: -1px -1px 0 #000;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+}
+.tbs-dropcap-style-flat {
+	background: #444;
+	color: #fff;
+}
+.tbs-dropcap-style-light {
+	color: #333;
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background: rgb(255, 255, 255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(234, 234, 234, 1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(100%, rgba(234, 234, 234, 1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(234, 234, 234, 1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(234, 234, 234, 1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(234, 234, 234, 1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(234, 234, 234, 1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eaeaea', GradientType=0); /* IE6-9 */
+}
+.tbs-dropcap-style-simple {
+	width: 1em;
+	height: 1em;
+	line-height: 1em;
+	text-align: left;
+}
+
+/*		Frame
+---------------------------------------------------------------*/
+
+.tbs-frame,
+.tbs-frame-inner { display: block; }
+.tbs-frame-align-left {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.tbs-frame-align-center {
+	float: none;
+	margin: 1em auto;
+}
+.tbs-frame-align-right {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+.tbs-frame img {
+	display: block !important;
+	float: none !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+.tbs-frame-style-default {
+	padding: 2px;
+	border: 1px solid #999;
+	background: #fff;
+	-webkit-box-shadow: 1px 1px 4px #ccc;
+	-moz-box-shadow: 1px 1px 4px #ccc;
+	box-shadow: 1px 1px 4px #ccc;
+}
+.tbs-frame-style-default .tbs-frame-inner {
+	padding: 2px;
+	border: 4px solid #eee;
+}
+
+/*		List
+---------------------------------------------------------------*/
+
+.tbs-list ul {
+	list-style: none !important;
+	margin: 0 0 1.5em 0 !important;
+	padding: 0 !important;
+}
+.tbs-list ul li {
+	position: relative;
+	list-style-type: none !important;
+	display: block !important;
+	line-height: 1.3em;
+	margin: 0 !important;
+	padding: 4px 0 4px 2em !important;
+}
+.tbs-list ul li > img {
+	position: absolute;
+	left: 0;
+	top: 4px;
+	width: 1.3em;
+	height: 1.3em;
+	padding: 0;
+	margin: 0;
+	border: none;
+}
+.tbs-list ul li i {
+	position: absolute;
+	left: 0;
+	top: 4px;
+	width: 1.3em;
+	height: 1.3em;
+	line-height: 1.3em;
+	text-align: center;
+}
+
+/*		Button
+---------------------------------------------------------------*/
+
+.tbs-button {
+	display: inline-block !important;
+	text-align: center;
+	text-decoration: none !important;
+	box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+	transition: all .2s;
+	-o-transition: all .2s;
+	-ie-transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+}
+.tbs-button-wide {
+	display: block !important;
+	margin: 1em 0;
+}
+.tbs-button-center { text-align: center; }
+.tbs-button span {
+	display: block !important;
+	text-decoration: none !important;
+	box-sizing: content-box !important;
+	-moz-box-sizing: content-box !important;
+	-webkit-box-sizing: content-box !important;
+	transition: all .2s;
+	-o-transition: all .2s;
+	-ie-transition: all .2s;
+	-moz-transition: all .2s;
+	-webkit-transition: all .2s;
+}
+.tbs-button img {
+	border: none !important;
+	vertical-align: middle !important;
+	margin: -0.2em 0.4em 0 -0.3em !important;
+	box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+.tbs-button i {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin: 0 0.5em 0 0 !important;
+	text-align: center;
+	line-height: 1em;
+}
+.tbs-button.tbs-button-float-icon img { margin: 0 0.5em !important }
+.tbs-button small {
+	display: block;
+	margin: -0.2em 0 0 0;
+	color: inherit;
+	text-align: center;
+	font-style: normal;
+	font-size: 0.8em;
+	line-height: 1;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+.tbs-button-style-default {
+	border-width: 1px;
+	border-style: solid;
+}
+.tbs-button-style-default:hover {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+.tbs-button-style-default span {
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+}
+.tbs-button-style-flat,
+.tbs-button-style-flat span { border: none }
+.tbs-button-style-flat span { position: relative }
+.tbs-button-style-flat:hover span { top: 1px }
+.tbs-button-style-soft span { background: 0 -20px url('../images/styles/style-soft.png') repeat-x }
+.tbs-button-style-soft:hover span { background: 0 0 url('../images/styles/style-soft.png') repeat-x }
+.tbs-button-style-glass span { background: 0 50% url('../images/styles/style-glass.png') repeat-x }
+.tbs-button-style-glass:hover span { background: 100% 50% url('../images/styles/style-glass.png') repeat-x }
+.tbs-button-style-bubbles span { background: 0 50% url('../images/styles/style-bubbles.png') no-repeat }
+.tbs-button-style-bubbles:hover span { background: -710px 50% url('../images/styles/style-bubbles.png') no-repeat }
+.tbs-button-style-noise span { background: 0 0 url('../images/styles/style-noise.png') repeat-x }
+.tbs-button-style-noise:hover span { background: 0 0 url('../images/styles/style-noise.png') repeat-x }
+.tbs-button-style-stroked span {
+	margin: 1px;
+	border: 1px dashed #fff !important;
+}
+.tbs-button-style-stroked:hover span {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+	filter: alpha(opacity=70);
+	-moz-opacity: 0.7;
+	-khtml-opacity: 0.7;
+	opacity: 0.7;
+}
+.tbs-button-style-3d {
+	border-bottom-style: solid;
+	border-bottom-width: 6px;
+}
+.tbs-button-style-3d span {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.tbs-button-style-3d:hover {
+	position: relative;
+	top: 3px;
+	border-bottom-width: 3px;
+}
+
+/*		Table
+---------------------------------------------------------------*/
+
+.tbs-table table {
+	width: 100% !important;
+	margin: 0 0 1.5em 0 !important;
+	border-collapse: collapse !important;
+	font-size: 1em !important;
+	border: 1px solid #ccc !important;
+}
+.tbs-table th {
+	text-align: center !important;
+	padding: 1em !important;
+	font-size: 1em !important;
+	font-weight: normal !important;
+	color: #333 !important;
+	border: 1px solid #ccc !important;
+	background: #f0f0f0 !important;
+}
+.tbs-table td {
+	padding: 0.5em 1em !important;
+	border: 1px solid #ccc !important;
+	background: #fff !important;
+}
+.tbs-table .tbs-even td { background: #f7f7f7 !important }

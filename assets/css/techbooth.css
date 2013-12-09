@@ -1,0 +1,173 @@
+/***********************************
+	Common styles
+***********************************/
+
+.techbooth-onehalf {
+	float: left;
+	width: 46%;
+	margin: 0 4% 1em 0;
+}
+.techbooth-onethird {
+	float: left;
+	width: 31%;
+	margin: 0 2% 1em 0;
+}
+.techbooth-clear {
+	display: block;
+	height: 0;
+	overflow: hidden;
+	clear: both;
+}
+.techbooth-hidden { display: none }
+
+
+/***********************************
+	Nav tabs
+***********************************/
+
+#techbooth-tabs {}
+#techbooth-tabs span { cursor: pointer }
+#techbooth-tabs .nav-tab-active,
+#techbooth-tabs span:hover { color: #464646 }
+#techbooth-tabs .nav-tab-active { cursor: default; }
+h3.techbooth-no-js-tab {
+	margin: 1em 0;
+	padding: 1em;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	background: #f2f2f2;
+	color: #555;
+}
+
+
+/***********************************
+	Panes
+***********************************/
+
+.techbooth-pane {
+	margin: 2em 0;
+}
+.js .techbooth-pane {
+	display: none;
+	border: none;
+}
+
+
+/***********************************
+	Notices
+***********************************/
+
+#techbooth-settings div.techbooth-notice { margin: 1.5em 0; }
+
+
+/***********************************
+	Inline menus
+***********************************/
+
+.techbooth-inline-menu {
+	margin: 1.5em 0;
+	line-height: 1.5em;
+}
+.techbooth-inline-menu a {
+	display: inline-block;
+	padding: 0 0.7em;
+	border-right: 1px dotted #ccc;
+	text-decoration: none;
+	line-height: 1.5em;
+}
+.techbooth-inline-menu a:hover {
+	text-decoration: underline;
+}
+.techbooth-inline-menu a:first-child {
+	padding-left: 0;
+}
+.techbooth-inline-menu a:last-child {
+	display: inline-block;
+	padding-right: 0;
+	border-right: none;
+}
+
+
+/***********************************
+	Common fields
+***********************************/
+
+#techbooth-settings .form-table td,
+#techbooth-settings .form-table th { padding-bottom: 20px }
+
+#techbooth-settings .description {
+	display: block;
+	margin-top: 5px;
+}
+
+#techbooth-settings textarea {
+	min-width: 200px;
+}
+
+.techbooth-checkbox-group label {
+	display: inline-block;
+	margin: 0 0 5px 0;
+}
+
+
+/***********************************
+	Color picker
+***********************************/
+
+.techbooth-color-picker { position: relative; }
+.techbooth-color-picker-wheel {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 9999;
+	display: none;
+	border: 1px solid #aaa;
+	background: #fff;
+	-webkit-box-shadow: 0 2px 5px #ccc;
+	-moz-box-shadow: 0 2px 5px #ccc;
+	box-shadow: 0 2px 5px #ccc;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.techbooth-color-picker .button img {
+	vertical-align: middle;
+	margin: -3px 4px 0 -4px;
+}
+
+
+/***********************************
+	Media manager
+***********************************/
+
+.techbooth-media {}
+.techbooth-media .button img {
+	vertical-align: middle;
+	margin: -3px 4px 0 -4px;
+}
+
+
+/***********************************
+	Actions bar
+***********************************/
+
+.techbooth-actions-bar {
+	margin-top: 20px;
+	padding: 10px;
+	background: #f5f5f5;
+	border-top: 1px solid #eee;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.techbooth-spin,
+.techbooth-success-tip {
+	display: none;
+	margin-left: 10px;
+}
+.techbooth-success-tip { color: #0b0 }
+.techbooth-spin img,
+.techbooth-success-tip img { margin: 0 5px -3px 0 }
